@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="Estados de Actividad"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblEstado"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:gravity="center"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:text="Ingrese un numero"
+        android:textColor="@color/white"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/txtNumero"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>
